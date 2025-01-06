@@ -101,14 +101,14 @@ VERIFY_SECOND_SHORTNER = bool(environ.get('VERIFY_SECOND_SHORTNER', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'gplinks.com')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'e5bf7301b4ad442d45481de99fd656a182ec6507')
 # if verify second shortner is True then fill below url and api
-VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', '')
-VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
+VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'gplinks.com')
+VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', 'e5bf7301b4ad442d45481de99fd656a182ec6507')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/AniMovieRulz/7')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e5bf7301b4ad442d45481de99fd656a182ec6507')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
@@ -143,7 +143,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://scattered-corella-file-search-robot-228e8ad4.koyeb.app/")
+URL = environ.get("URL", "https://empirical-tortoise-cinematalkies-adf94198.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
